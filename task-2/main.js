@@ -5,7 +5,7 @@ const http = require('http')
 // CREATE SERVER
 const server = http.createServer((request, response) => {
     response.writeHead(200, {'content-type': 'text/white'})
-    response.end('<h1>Hello Node!!!!</h1>')
+    response.end('<h1>Hello </h1>')
 })
 
 // TESTING REQUEST & RESPONSE
