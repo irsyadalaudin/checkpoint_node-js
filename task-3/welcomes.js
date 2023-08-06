@@ -1,7 +1,7 @@
-/* NON BLOCKING CODE */
+/* NON BLOCKING CODE (CALLBACK FUNCTION)*/
 const fs = require('fs')
 
-fs.readFileSync('3_welcome.txt', (err, data) => {
+fs.readFile('welcome.txt', (err, data) => {
     if(err) {
         return console.error(err)
     }
